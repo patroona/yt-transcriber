@@ -1,10 +1,10 @@
 // server.js
-import express from 'express';
-import { exec } from 'child_process';
-import fs from 'fs';
-import path from 'path';
-import fetch from 'node-fetch';
-import FormData from 'form-data';
+const express = require('express');
+const { exec } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+const fetch = require('node-fetch');
+const FormData = require('form-data');
 
 const app = express();
 app.use(express.json());
